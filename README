@@ -2,7 +2,8 @@ This is a small Python script to clean up the ACE SWICS solar wind data set, ava
 http://www.srl.caltech.edu/ACE/ASC/level2/lvl2DATA_SWICS_SWIMS.html
 
 BACKGROUND
-A good friend of mine, Robert Alexander, is a composer that I have collaborated with as a dancer and choreographer (in my other life).  He was hired by the Solar and Heliospheric Research Group at University of Michigan to "sonify" - or, to create a musical score directly derived from - this dataset.  He wanted the data to appear continuous, to 
+A good friend of mine, Robert Alexander, is a composer that I have collaborated with as a dancer and choreographer (in my other life).  He was hired by the Solar and Heliospheric Research Group at University of Michigan to "sonify" - or, to create a musical score directly derived from - this dataset.  He wanted the data to appear continuous, to make his parsing in Max/MSP easier.  Learn more and see/hear the score here:
+http://www.youtube.com/watch?v=kryCbfRJCyk
 
 The dataset is a tab-delimited file of solar wind measurements, with some missing values.  The script takes in the data file and computes a simple average between the previous and following measurements.
 
