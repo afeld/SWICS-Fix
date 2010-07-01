@@ -8,4 +8,4 @@ http://www.youtube.com/watch?v=kryCbfRJCyk
 The dataset is a tab-delimited file of solar wind measurements, with some missing values.  The script takes in the data file and computes a simple average between the previous and following measurements.
 
 USAGE
-Simply run "python csv_fix.py <file1> <file2> É", and "<file1>-clean.csv", "<file2>-clean.csv", etc. will be created.
+Simply run "python csv_fix.py <file1> <file2> ...", and "<file1>-clean.csv", "<file2>-clean.csv", etc. will be created.
